@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+//      LineGradient()
+        
+//        ZStack {
+//            YouTubeView(videoId: "1-iS7LArMPA")
+//                .frame(width: 400, height: 400)
+//                .fixedSize()
+//                .frame(width: 200, height: 200)
+//                .clipped()
+//        }
+        FlowerView()
     }
 }
 
@@ -24,3 +29,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
