@@ -33,7 +33,7 @@ struct FlowerView: View {
                     
                     Rectangle()
                         .fill(c)
-                        .aspectRatio(1, contentMode: .fit)
+//                        .aspectRatio(1, contentMode: .fit)
                         .cornerRadius(go ? size.width * 0.1 : size.width )
                         .scaleEffect(1 - f)
                         .rotationEffect(go ? .degrees(d * 10) : Angle.degrees(0))
@@ -51,16 +51,16 @@ struct FlowerView: View {
                 Rectangle().fill(Color.clear).onAppear { size = r.size }
             }}
             .compositingGroup()
-            HStack {
-                Slider(value: $deg)
-                Slider(value: $ax)
-                Slider(value: $ay)
-                Slider(value: $az)
-                
-            }
+//            HStack {
+//                Slider(value: $deg)
+//                Slider(value: $ax)
+//                Slider(value: $ay)
+//                Slider(value: $az)
+//            }
         }
+        .background(Color.black)
         .edgesIgnoringSafeArea([.all])
-            .background(Color.black)
+        
     }
 }
 

@@ -7,10 +7,21 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @State var go = false
     
     var body: some View {
-        FlowerView()
+//        FlowerView()
+//        EmptyView()
+       TwitterBluePlus()
+//        SmokeTestView()
+//        DragTest()
+        
+//        BallSlider()
+//        RoundStepper()
+//        TinyLineChart()
+            
 //        LineGradient()
 //        CircleGradient()
     }
@@ -19,6 +30,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            
     }
 }
 

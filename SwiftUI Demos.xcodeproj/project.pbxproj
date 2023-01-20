@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C837F15D2979D3A300CEF848 /* TwitterBluePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C837F15C2979D3A300CEF848 /* TwitterBluePlus.swift */; };
+		C837F15F297A8BA900CEF848 /* DragTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C837F15E297A8BA900CEF848 /* DragTest.swift */; };
+		C84C1F04297577EE00B77CD9 /* BallSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1F03297577EE00B77CD9 /* BallSlider.swift */; };
+		C84C1F1C2975E17C00B77CD9 /* WhiteLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1F1B2975E17C00B77CD9 /* WhiteLetter.swift */; };
+		C84C1F1F297692DD00B77CD9 /* ShadowRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1F1E297692DD00B77CD9 /* ShadowRotate.swift */; };
+		C84C1F5F297738E900B77CD9 /* BlurryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1F5E297738E900B77CD9 /* BlurryLoader.swift */; };
+		C84C1F632977D56000B77CD9 /* RoundStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1F622977D56000B77CD9 /* RoundStepper.swift */; };
+		C84C1F652977F87D00B77CD9 /* TinyLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1F642977F87D00B77CD9 /* TinyLineChart.swift */; };
+		C84C1F6B2978498900B77CD9 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C1F6A2978498900B77CD9 /* Transition.swift */; };
 		C8F19C5829734F5000160058 /* CircleAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F19C5729734F5000160058 /* CircleAnimationApp.swift */; };
 		C8F19C5A29734F5000160058 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F19C5929734F5000160058 /* ContentView.swift */; };
 		C8F19C5C29734F5100160058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F19C5B29734F5100160058 /* Assets.xcassets */; };
@@ -17,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C837F15C2979D3A300CEF848 /* TwitterBluePlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterBluePlus.swift; sourceTree = "<group>"; };
+		C837F15E297A8BA900CEF848 /* DragTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragTest.swift; sourceTree = "<group>"; };
+		C84C1F03297577EE00B77CD9 /* BallSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallSlider.swift; sourceTree = "<group>"; };
+		C84C1F1B2975E17C00B77CD9 /* WhiteLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteLetter.swift; sourceTree = "<group>"; };
+		C84C1F1E297692DD00B77CD9 /* ShadowRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowRotate.swift; sourceTree = "<group>"; };
+		C84C1F5E297738E900B77CD9 /* BlurryLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurryLoader.swift; sourceTree = "<group>"; };
+		C84C1F622977D56000B77CD9 /* RoundStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundStepper.swift; sourceTree = "<group>"; };
+		C84C1F642977F87D00B77CD9 /* TinyLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyLineChart.swift; sourceTree = "<group>"; };
+		C84C1F6A2978498900B77CD9 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		C8F19C5429734F5000160058 /* SwiftUI Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F19C5729734F5000160058 /* CircleAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimationApp.swift; sourceTree = "<group>"; };
 		C8F19C5929734F5000160058 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C84C1F1D297692C600B77CD9 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				C84C1F03297577EE00B77CD9 /* BallSlider.swift */,
+				C84C1F1B2975E17C00B77CD9 /* WhiteLetter.swift */,
+				C84C1F622977D56000B77CD9 /* RoundStepper.swift */,
+				C837F15C2979D3A300CEF848 /* TwitterBluePlus.swift */,
+				C837F15E297A8BA900CEF848 /* DragTest.swift */,
+				C84C1F6A2978498900B77CD9 /* Transition.swift */,
+				C84C1F1E297692DD00B77CD9 /* ShadowRotate.swift */,
+				C84C1F5E297738E900B77CD9 /* BlurryLoader.swift */,
+				C84C1F642977F87D00B77CD9 /* TinyLineChart.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
 		C8F19C4B29734F5000160058 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +113,7 @@
 		C8F19C6A297444B100160058 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				C84C1F1D297692C600B77CD9 /* Playground */,
 				C8F19C662973EF4B00160058 /* CircleGradient.swift */,
 				C8F19C682973EFAC00160058 /* LineGradient.swift */,
 				C8F19C6B297444D200160058 /* FlowerView.swift */,
@@ -158,9 +193,18 @@
 			files = (
 				C8F19C5A29734F5000160058 /* ContentView.swift in Sources */,
 				C8F19C692973EFAC00160058 /* LineGradient.swift in Sources */,
+				C84C1F1F297692DD00B77CD9 /* ShadowRotate.swift in Sources */,
+				C84C1F652977F87D00B77CD9 /* TinyLineChart.swift in Sources */,
 				C8F19C6C297444D200160058 /* FlowerView.swift in Sources */,
+				C84C1F5F297738E900B77CD9 /* BlurryLoader.swift in Sources */,
+				C84C1F6B2978498900B77CD9 /* Transition.swift in Sources */,
+				C837F15F297A8BA900CEF848 /* DragTest.swift in Sources */,
+				C84C1F1C2975E17C00B77CD9 /* WhiteLetter.swift in Sources */,
 				C8F19C5829734F5000160058 /* CircleAnimationApp.swift in Sources */,
+				C837F15D2979D3A300CEF848 /* TwitterBluePlus.swift in Sources */,
+				C84C1F632977D56000B77CD9 /* RoundStepper.swift in Sources */,
 				C8F19C672973EF4B00160058 /* CircleGradient.swift in Sources */,
+				C84C1F04297577EE00B77CD9 /* BallSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
